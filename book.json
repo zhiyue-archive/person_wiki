@@ -3,7 +3,13 @@
         "katex",
         "-maxiang",
         "-mathjax",
-        "super-prd"
+        "super-prd",
+        "duoshuo"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "duoshuo": {
+            "short_name": "zhiyue",
+            "theme": "default"
+        }
+    }
 }
