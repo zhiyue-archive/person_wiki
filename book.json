@@ -1,9 +1,0 @@
-{
-    "plugins": [
-        "katex",
-        "-maxiang",
-        "-mathjax",
-        "super-prd"
-    ],
-    "pluginsConfig": {}
-}
