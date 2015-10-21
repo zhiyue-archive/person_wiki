@@ -31,14 +31,14 @@ install:
 #- npm install hexo-generator-sitemap@0.2.0 --save
 #- npm install hexo-tag-bootstrap@0.0.6 --save 
 - gitbook install
-- gitbook build
+
 
 
 script:
   - "git submodule init"
   - "git submodule update"
   - "git submodule foreach git pull origin master"
-  - "hexo generate "
+  - gitbook build
   
 after_success:
   - "git clone $DEPLOY_REPO git_deploy"
