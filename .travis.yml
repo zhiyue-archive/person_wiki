@@ -38,7 +38,7 @@ script:
   - "git submodule init"
   - "git submodule update"
   - "git submodule foreach git pull origin master"
-  - gitbook build --output=./book
+  - gitbook build 
   
 after_success:
   - "git clone $DEPLOY_REPO git_deploy"
@@ -49,7 +49,7 @@ after_success:
   - "pwd"
   - "ls ."
   - "rm -r git_deploy/* "
-  - "cp -r book/* git_deploy"
+  - "cp -r _book/* git_deploy"
   - "cd git_deploy"
   - "git config --global push.default simple"
   - "git config --global user.name 'zhiyue'"
