@@ -4,6 +4,7 @@
         "-maxiang",
         "-mathjax",
         "super-prd",
+        "js-sequence-diagram",
         "duoshuo"
     ],
     "pluginsConfig": {
