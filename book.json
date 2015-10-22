@@ -5,6 +5,7 @@
         "-mathjax",
         "super-prd",
         "js-sequence-diagram",
+        "gtoc",
         "duoshuo"
     ],
     "pluginsConfig": {
